@@ -11,18 +11,18 @@ export default function LoginPage() {
 }
 
 const styles = StyleSheet.create({
-    container: {
+    container: { // Background
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#00ffff',
     },
-    icon: {
+    icon: { // Icon/logo
         width: '64px',
         height: '64px',
         top: -225,
     },
-    text: {
+    text: { // Text style
         color: '#fff',
     },
 })
